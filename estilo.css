@@ -603,7 +603,7 @@ h1{
     width: 225px;
     height: 200px;
     border-radius: 18px;
-    background-image: url(interior\ 1.jpg);
+    background-image: url(interior1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -612,7 +612,7 @@ h1{
     width: 225px;
     height: 200px;
     border-radius: 18px;
-    background-image: url(interior\ 3.jpg);
+    background-image: url(interior3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -621,7 +621,7 @@ h1{
     width: 225px;
     height: 200px;
     border-radius: 18px;
-    background-image: url(interior\ 2.jpg);
+    background-image: url(interior2.jpg);
     background-size: cover;
     background-position: center;
 }
