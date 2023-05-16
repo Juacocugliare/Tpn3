@@ -1,0 +1,949 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 13px;
+}
+
+.p2{
+    margin-right: 18px;
+}
+.p4{
+    margin-right: 18px;
+}
+
+.icono{
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+    font-family: 'Nunito', sans-serif;
+    color: #24252a;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.larki{
+    width: 60px;
+    width: 60px;
+}
+
+.titulol{
+    font-size: 16px;
+    color: #24252a;
+}
+
+.enlaces{
+    gap: 39px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.listingyflecha{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.services{
+    color: gray;
+}
+
+.about{
+    color: gray;
+}
+.us{
+    color: gray;
+}
+.flechabaja{
+    width: 14px;
+    height: 14px;
+}
+
+.eboton{
+    margin-right: 5rem;
+}
+
+.boton{
+    border: 1px solid #2635c1;
+    color: white;
+    background: #2635c1;
+    width: 135px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+.primerboton{
+    font-size: 14px;
+    font-family:'Nunito', sans-serif;
+}
+
+.menu1{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 7.5rem;
+}
+
+.textomain{
+    font-size: 63px;
+    font-family: 'Nunito', sans-serif;
+    color: #24252a;
+}
+
+.lorem{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    margin-top: 23px;
+}
+.lorem2{
+    margin-top: 10px;
+}
+
+.imagenderecha{
+    width: 590px;
+    height: 600px;
+    background-image: url(fotoprincipal.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin-left: 19.2rem;
+    border-radius: 16px;
+}
+
+.buscador{
+    margin-top: 45px;
+}
+.search{
+    padding: 20px 240px;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+
+.estadisticas{
+    display: flex;
+    margin-top: 45px;
+    gap: 50px;
+}
+
+.numerito{
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+    color: #24252a;
+}
+
+.abajonumeros{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-top: 7px;
+    color: #24252a;
+}
+
+.featuredytexto{
+    display: flex;
+    margin-top: 175px;
+    margin-left:  5rem; ;
+}
+
+.lorem3{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+}
+
+.featured{
+    font-size: 40px;
+    color: #24252a;
+    display: flex;
+    font-family:'Nunito', sans-serif ;
+}
+.rigthfeatured{
+    margin-left: 480px;
+}
+
+.fotos{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+.listafoto{
+    padding: 125px 100px;
+    border-radius: 15px;
+    background-image: url(Foto1.jpg);
+    background-size: cover;
+}
+.listafoto2{
+    padding: 125px 100px;
+    border-radius: 15px;
+    background-image: url(Foto2.jpg);
+    background-size: cover;
+}
+.listafoto3{
+    padding: 125px 100px;
+    border-radius: 15px;
+    background-image: url(Foto3.jpg);
+    background-size: cover;
+}
+.listafoto4{
+    padding: 125px 100px;
+    border-radius: 15px;
+    background-image: url(Foto4.jpg);
+    background-size: cover;
+}
+
+.textofoto{
+    font-size: 36px;
+    color: #24252a;
+    font-family:'Nunito', sans-serif;
+    margin-top: 25px;
+}
+.textofoto2{
+    font-size: 36px;
+    color: #24252a;
+    font-family:'Nunito', sans-serif;
+}
+
+.ubicaciont{
+    font-family:'Nunito', sans-serif;
+    font-size: 18px;
+    color: rgb(103, 103, 103);
+    margin-top: 10px;
+}
+
+.botonprecio{
+    border: 1px solid #24252a ;
+    padding: 12px 35px;
+    color: white;
+    background: #24252a;
+    border-radius: 20px;
+}
+
+.textoboton{
+    font-family:'Nunito', sans-serif;
+    font-size: 17px;
+}
+
+.ubic{
+    width: 25px;
+    height: 25px;
+}
+
+.ubi{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.semoreylorem{
+    display: flex;
+    align-items: center;
+    gap: 370px;
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+.loren{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+}
+
+.botonmore{
+    border: 2px solid rgb(66, 66, 66);;
+    background: white;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+
+.seemore{
+    font-family:'Nunito', sans-serif;
+    font-size: 17px;
+    color: rgb(66, 66, 66);
+}
+
+.visionymision{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.ourvision{
+    font-size: 40px;
+    color: #24252a;
+    font-family:'Nunito', sans-serif ;
+}
+.ourmision{
+    font-size: 40px;
+    color: #24252a;
+    font-family:'Nunito', sans-serif ;
+    margin-top: 40px;
+}
+
+.imgourvision{
+    padding: 190px 325px;
+    border-radius: 20px;
+    background-image: url(Fotoourvision.jpg);
+    margin-top: 40px;
+}
+
+.imgourmision{
+    padding: 190px 325px;
+    border-radius: 20px;
+    background-image: url(Fotoourmision.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.loremvision{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+    margin-top: 12px;
+}
+
+.loremmision{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+}
+
+.menu2{
+    margin-top: 8rem;
+}
+.textoseasy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 6rem;
+    margin-right: 6rem;
+
+}
+.easystep{
+    display: flex;
+    flex-direction: column;
+}
+.textoeasy{
+    font-size: 45px;
+    color: #24252a;
+    font-family:'Nunito', sans-serif ;
+}
+
+.loremeasy{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;  
+}
+
+.loremeasyb{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;  
+    margin-top: 10px;
+}
+
+.divnumeros{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 6rem
+}
+
+.uno{
+    padding: 15px 20px;
+    background: #24252a;
+    color: white;
+    border-radius: 100%;
+    border: 1px solid;
+}
+.span1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+}
+
+.viewlist{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: #24252a;
+    margin-top: 6px;
+}
+
+.loremvie{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+    margin-top: 8px;
+}
+.seccionwhy{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 8rem;
+    justify-content: space-between;
+}
+.imagenwhy{
+    padding: 390px 335px;
+    border-radius: 20px;
+    background-image: url(fotohy.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.textowhy{
+    font-size: 45px;
+    color: #24252a;
+    font-family:'Nunito', sans-serif ;
+}
+.loremwhy1{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.loremwhy2{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+    margin-top: 7px;
+}
+
+.confortableh{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.correct{
+    padding: 20px 20px;
+    background: #24252a;
+    color: white;
+    border-radius: 100%;
+    border: 1px solid;
+    gap: 10px;
+}
+.confortable{
+    margin-left: 15px;
+}
+
+.what{
+    display: flex;
+    margin-top: 7rem;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.textowhy2{
+    font-size: 42px;
+    color: #24252a;
+    font-family:'Nunito', sans-serif ;
+}
+
+.loremwhat{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 7rem;
+    margin-top: 7rem;
+}
+
+.icono1{
+    background: #f1eeee;
+    width: 295px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.loremwhat1{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+.loremwhat2{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.loremwhat3{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.loremwhat4{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.genteicono{
+    width: 55px;
+    height: 55px;
+}
+
+.iconoyletras{
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+
+.shoophar{
+    font-family:'Nunito', sans-serif;
+    color: black;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.kang{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 12px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.icono2{
+    width: 295px;
+    height: 250px;
+}
+
+.icono3{
+    width: 295px;
+    height: 250px;
+}
+
+.icono4{
+    width: 295px;
+    height: 250px;
+}
+.seccionpileta{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 9rem;
+}
+.imagenpileta{
+    width: 550px;
+    height: 600px;
+    background-image: url(pileta.jpg);
+    border-radius: 15px;
+    background-size: cover;
+}
+.lets{
+    font-size: 63px;
+    font-family: 'Nunito', sans-serif;
+    color: #24252a;
+    margin-right: 15rem;
+}
+
+.lorempile{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+    margin-top: 20px;
+}
+.lorempile2{
+    font-family:'Nunito', sans-serif;
+    color: rgb(103, 103, 103);
+    font-size: 17px;
+    margin-top: 12px;
+}
+
+.getquote{
+    padding: 18px 45px;
+    color: white;
+    background-color: #2635c1;
+    border-radius: 30px;
+    border: none;
+    margin-top: 35px;
+}
+
+.textoget{
+    font-family:'Nunito', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.ultimasfotos{
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.fotoultima1{
+    width: 225px;
+    height: 200px;
+    border-radius: 18px;
+    background-image: url(interior\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fotoultima2{
+    width: 225px;
+    height: 200px;
+    border-radius: 18px;
+    background-image: url(interior\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fotoultima3{
+    width: 225px;
+    height: 200px;
+    border-radius: 18px;
+    background-image: url(interior\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fiurer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 8rem;
+}
+
+.lark{
+    font-size: 16px;
+    color: #24252a;
+    font-family:'Nunito', sans-serif;
+}
+.acomodolorem{
+    display: flex;
+    flex-direction: column;
+}
+.acomodolarki{
+    display: flex;
+    align-items: center;
+}
+.useful{
+    font-family:'Nunito', sans-serif;
+    color: #24252a;
+    font-size: 18px;
+}
+
+.listingg{
+    font-family:'Nunito', sans-serif;
+    color: #24252a;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.aboutus{
+    font-family:'Nunito', sans-serif;
+    color: #24252a;
+    font-size: 15px;
+    margin-top: 11px;
+}
+
+.contacto{
+    font-family:'Nunito', sans-serif;
+    color: #24252a;
+    font-size: 15px;
+    margin-top: 11px;
+}
+
+.ourteam{
+    font-family:'Nunito', sans-serif;
+    color: #24252a;
+    font-size: 15px;
+    margin-top: 11px;
+}
+.ubik{
+    display: flex;
+    margin-top: 16px;
+}
+.ubifuter{
+    width: 25px;
+    height: 25px;
+}
+
+.telynum{
+    display: flex;
+    margin-top: 16px;
+}
+.telefonoul{
+    width: 25px;
+    height: 25px;
+}
+.maill{
+    display: flex;
+    margin-top: 16px;
+}
+
+.mail{
+    width: 25px;
+    height: 25px;
+}
+
+.getintouch{
+    font-family:'Nunito', sans-serif;
+    color: #24252a;
+    font-size: 18px;
+}
+
+.street{
+    font-family:'Nunito', sans-serif;
+    color: gray;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.city{
+    font-family:'Nunito', sans-serif;
+    color: gray;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.numerocontacto{
+    font-family:'Nunito', sans-serif;
+    color: gray;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.maillark{
+    font-family:'Nunito', sans-serif;
+    color: gray;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.formultimo{
+    display: flex;
+    flex-direction: column;
+}
+.labelemail{
+    font-family:'Nunito', sans-serif;
+    color: #24252a;
+    font-size: 18px;
+}
+
+.inputmail{
+    width: 250px;
+    height: 45px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    font-family:'Nunito', sans-serif;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.ultimoboton{
+    height: 48px;
+    color: white;
+    background-color: #2635c1;
+    border-radius: 20px;
+    border: none;
+    margin-top: 18px;
+}
+
+.submet{
+    font-family:'Nunito', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.boton:hover{
+        transform: scale(1.1);
+        background:#2635c1 ;
+        color: white;
+}
+
+.botonmore:hover{
+    transform: scale(1.1);
+    background: white;
+    color: #24252a;
+    cursor: pointer;
+}
+
+.ultimoboton:hover{
+    transform: scale(1.1);
+    background:#2635c1 ;
+    color: white;
+    cursor: pointer;
+}
+
+.getquote:hover{
+    transform: scale(1.1);
+    background:#2635c1 ;
+    color: white;
+    cursor: pointer;
+}
+
+.lastlark{
+    width: 45px;
+    width: 45px;
+}
+
+@media(max-width:480px){
+
+    .header{
+        flex-direction: column;
+    }
+    .enlaces{
+        flex-direction: column;
+        margin-right: 7rem;
+    }
+    .boton{
+        margin-top: 20px;
+    }
+    .menu1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textomain{
+        font-size: 50px;
+        margin-right: 2rem;
+    }
+    .estadisticas{
+        width: 80%;
+    }
+
+    .lorem{
+        text-align: center;
+        margin-right: 4rem;
+    }
+
+    .search{
+        padding: 20px 150px;
+        margin-right: 4rem;
+    }
+
+    .numerito{
+        font-size: 20px;
+    }
+
+    .imagenderecha{
+        width: 400px;
+        margin-right: 24rem;
+        margin-top: 30px;
+    }
+
+    .lorem3{
+        display: none;
+    }
+
+    .fotos{
+        flex-direction: column;
+    }
+
+    .semoreylorem{
+        display: none;
+    }
+
+    .visionymision{
+        flex-direction: column;
+    }
+
+    .izquierdaourv{
+        margin-bottom: 25px;
+    }
+    .imgourvision{
+        padding: 150px 100px;
+    }
+    .imgourmision{
+        padding: 150px 100px;
+    }
+    .textoseasy{
+        flex-direction: column;
+    }
+    .divnumeros{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .seccionwhy{
+        flex-direction: column;
+    }
+    .whychose{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .imagenwhy{
+        padding: 150px 100px;
+    }
+    .what{
+        flex-direction: column;
+    }
+    .iconos{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .lorempile{
+        width: 60%;
+    }
+
+    .getquote{
+        margin-left: 5rem;
+    }
+    .ultimasfotos{
+        flex-direction: column;
+        margin-left: 5rem;
+    }
+
+    .fiurer{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .lastlorem{
+        display: none;
+    }
+
+    .lets{
+        display: flex;
+        flex-direction: row;
+    }
+}
+ 
+@media(max-width:768px){
+    .header{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .imagenderecha{
+        padding: 100px 100px;
+    }
+    .featuredytexto{
+        display: flex;
+        flex-direction: row;
+    }
+    .rigthfeatured{
+        display: flex;
+        flex-direction: row;
+    }
+}
